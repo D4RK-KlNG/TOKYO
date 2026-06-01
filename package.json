@@ -1,0 +1,21 @@
+{
+  "name": "tokyo-bot",
+  "version": "1.0.0",
+  "description": "Tokyo WhatsApp Bot - Multi-device WhatsApp Bot with Telegram Control Panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "telegram", "telegraf", "multi-device"],
+  "author": "D4RK-K1NG",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.x",
+    "telegraf": "^4.x",
+    "axios": "^1.x",
+    "qrcode-terminal": "^0.12.x",
+    "pino": "^8.x",
+    "node-cache": "^5.x"
+  }
+}
