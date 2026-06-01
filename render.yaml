@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tokyo-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
